@@ -102,3 +102,10 @@ body {
   right:0;
   content:'\00BB';
 }
+
+form {
+    position:fixed;
+    top:50%;
+    left:37%;
+    width:2000px;
+}

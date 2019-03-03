@@ -16,40 +16,6 @@
 		</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
-			  <li class="nav-item active">
-				<a class="nav-link icon" href="#">About <span class="sr-only">(current)</span></a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link icon" href="#">Experience</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link icon" href="#">Links</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link icon" href="#">Contact Me</a>
-			  </li>
-
-			</ul>
-		  </div>
-		</nav>
-
-		<form>
-			<div class="form-group row">
-			  	<div class = "col-3">
-				    <label for="RatingInput">Food Rating!</label>
-				    <input type="rating" class="form-control" id="RatingInput" aria-describedby="ratingHelp" placeholder="Enter rating">
-				    <small id="ratingHelp" class="form-text text-muted">Please enter a decimal rating from 0 to 5 for the shown food.</small>
-				</div>
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</form>
 
 		<div class="carousel">
 		  <input id="image1" type="radio" name="image-selector" checked="checked" />
@@ -68,12 +34,21 @@
 		  <input id="image4" type="radio" name="image-selector" />
 		  <label for="image3">View image 3</label>
 		  <img src="http://lorempixel.com/400/300/sports/4" />
-		  
+
 		  <label for="image4">View image 4</label>
 		  <label for="image1">View image 1</label>
 		</div>
 
-
+        <form>
+			<div class="form-group row">
+			  	<div class = "col-3">
+				    <label for="RatingInput">Food Rating!</label>
+				    <input type="rating" class="form-control" id="RatingInput" aria-describedby="ratingHelp" placeholder="Enter rating">
+				    <small id="ratingHelp" class="form-text text-muted">Please enter a decimal rating from 0 to 5 for the shown food.</small>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
